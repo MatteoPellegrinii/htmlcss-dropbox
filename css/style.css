@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: ‘Open Sans’,sans-serif;
+}
+header > nav{
+    width: 100%;
+    /* debug */
+    /* height: 10vh; */
+    /* background-color: black; */
+    position: fixed;
+    font-size: 14px;
+}
+.left{
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 15px 0 15px 15px;
+    line-height: 100%;
+}
+.right{
+    float: right;
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    padding: 27px 15px 15px 0;
+    text-align: right;
+}
+header > nav::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+header a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+}
+header img{
+    position: relative;
+    top: 4px;
+}
+.bluebutton{
+    background-color: #0061ff;
+    color: white;
+    padding: 8px;
+}
+
+
+/* jumbotron */
+.jumbotron{
+    background-color: #b4d0e7;
+}
