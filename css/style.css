@@ -9,24 +9,27 @@ body{
 header > nav{
     width: 100%;
     /* debug */
-    /* height: 10vh; */
+    /* height: 100px; */
     /* background-color: black; */
     position: fixed;
     font-size: 14px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 99;
 }
 .left{
     float: left;
     width: 50%;
     height: 100%;
-    padding: 15px 0 15px 15px;
-    line-height: 100%;
+    padding: 15px 0 0 15px;
 }
 .right{
     float: right;
     width: 50%;
     height: 100%;
     /* background-color: blue; */
-    padding: 27px 15px 15px 0;
+    padding: 27px 0 15px 0;
     text-align: right;
 }
 header > nav::after{
@@ -46,11 +49,45 @@ header img{
 .bluebutton{
     background-color: #0061ff;
     color: white;
-    padding: 8px;
+    padding: 10px;
+    text-decoration: none;
 }
 
 
 /* jumbotron */
 .jumbotron{
     background-color: #b4d0e7;
+    margin-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+    position: relative;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.jumbotron h1{
+    padding-top: 50px;
+    font-size: 60px;
+}
+.jumbotron p{
+    font-size: 14px;
+    width: 30%;
+    padding-top: 30px;
+
+}
+.jumbotron .bluebutton{
+    position: relative;
+    top: 20px;
+}
+.jumbotron i{
+    margin-top: 30px;
+    width: 30%;
+    font-size: 50px;
+}
+.jumbotron img{
+    width: 50%;
+    position: absolute;
+    left: 500px;
+    top: 200px;
 }
