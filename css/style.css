@@ -29,7 +29,7 @@ header > nav{
     width: 50%;
     height: 100%;
     /* background-color: blue; */
-    padding: 27px 0 15px 0;
+    padding: 27px 20px 15px 0;
     text-align: right;
 }
 header > nav::after{
@@ -90,4 +90,45 @@ header img{
     position: absolute;
     left: 500px;
     top: 200px;
+}
+
+
+/* main */
+.prezzi{
+    width: 100%;
+    margin-top: 100px;
+    /* debug */
+    height: 500px;
+}
+.prezzi .container{
+    width: 70%;
+}
+.prezzi h2{
+    font-size: 30px;
+}
+.fatturazione{
+    margin-top: 60px;
+    font-size: 14px;
+}
+.fatturazione input{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+input:last-child{
+    margin-left: 15px;
+}
+.colonne{
+    margin-top: 40px;
+}
+.colonne::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.col{
+    float: left;
+    background-color: black;
+    width: 31%;
+    margin: 0 1%;
+    height: 200px;
 }
