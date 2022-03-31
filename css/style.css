@@ -17,6 +17,7 @@ header > nav{
     left: 0;
     background-color: white;
     z-index: 99;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.169);
 }
 .left{
     float: left;
@@ -127,8 +128,32 @@ input:last-child{
 }
 .col{
     float: left;
-    background-color: black;
     width: 31%;
     margin: 0 1%;
     height: 200px;
+    border: 1px solid grey;
+}
+.user{
+    height: 30px;
+    padding-top: 5px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+.col h3{
+    margin-top: 15px;
+    text-align: left;
+}
+.offerta{
+    width: 80%;
+    margin: auto;
+}
+.col h6{
+    color: grey;
+    margin-top: 10px;
+}
+.offerta div{
+    margin-top: 20px;
+}
+.offerta i{
+    padding-right: 20px;
 }
