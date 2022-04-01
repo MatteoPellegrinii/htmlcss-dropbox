@@ -231,3 +231,24 @@ hr{
     border: solid 1px black;
     width: 40%;
 }
+
+/* operations */
+.operations{
+    width: 95%;
+    margin-top: 80px;
+}
+.col-operations{
+    float: left;
+    width: 33%;
+    padding: 0 13px;
+    /* background-color: black; */
+    /* border: solid 1px red; */
+    /* height: 300px; */
+}
+.col-operations img{
+    width: 100%;
+}
+.col-operations p{
+    font-size: 12px;
+    margin: 10px 0;
+}
