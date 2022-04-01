@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: ‘Open Sans’,sans-serif;
+    font-family: sans-serif;
 }
 header > nav{
     width: 100%;
@@ -91,7 +91,7 @@ header img{
     color: black;
 }
 .jumbotron img{
-    width: 50%;
+    width: 55%;
     position: absolute;
     left: 500px;
     top: 200px;
@@ -170,4 +170,64 @@ hr{
 }
 .blu i{
     color: #0061ff;
+}
+
+
+/* colonna unica centrale */
+.center{
+    margin-top: 40px;
+    width: 100%;
+    float: none;
+    height: auto;
+}
+.teem::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.team{
+    float: left;
+    /* height: 300px; */
+    width: 30%;
+    padding-bottom: 20px;
+}
+.teem{
+    width: 95%;
+}
+.team p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.test{
+    width: 70%;
+}
+.team .bluebutton{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    top: 4px;
+}
+
+/* immagine di fiamco a testo */
+.imgtest{
+    margin-top: 60px;
+}
+.imgtest img{
+    width: 100%;
+}
+.imgtest .team{
+    width: 50%;
+}
+.imgtest p{
+    font-size: 14px;
+}
+.partner{
+    padding-left: 60px;
+    padding-right: 30px;
+}
+.imgtest .bluebutton{
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+    width: 40%;
 }
