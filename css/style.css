@@ -398,3 +398,33 @@ hr{
     color: black;
     text-decoration: none;
 }
+
+/* domande e rsiposte */
+.answerpart{
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+.questions{
+    border-bottom: 1px solid grey;
+    padding: 25px 0;
+    width: 100%;
+    font-size: 14px;
+}
+.questions::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.quest{
+    float: left;
+    width: 80%;
+}
+.destra{
+    float: right;
+    width: 20%;
+    text-align: right;
+    padding-right: 30px;
+}
+.bortop{
+    border-top: solid 1px gray;
+}
