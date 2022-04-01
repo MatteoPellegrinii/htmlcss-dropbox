@@ -23,14 +23,15 @@ header > nav{
     float: left;
     width: 50%;
     height: 100%;
-    padding: 15px 0 0 15px;
+    padding: 15px;
+    height: 66px;
 }
 .right{
     float: right;
     width: 50%;
     height: 100%;
     /* background-color: blue; */
-    padding: 27px 20px 15px 0;
+    padding: 15px;
     text-align: right;
 }
 header > nav::after{
@@ -46,6 +47,7 @@ header a{
 header img{
     position: relative;
     top: 4px;
+    left: 5px;
 }
 .bluebutton{
     background-color: #0061ff;
@@ -86,6 +88,7 @@ header img{
     margin-top: 30px;
     width: 30%;
     font-size: 50px;
+    color: black;
 }
 .jumbotron img{
     width: 50%;
