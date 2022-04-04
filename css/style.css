@@ -73,7 +73,7 @@ header img{
     display: inline-block;
 }
 header .bluebutton{
-    padding: 6px;
+    padding: 6px 10px;
 }
 header .bluebutton:hover{
     border-bottom: 0;
@@ -438,6 +438,7 @@ hr{
     font-size: 30px;
     width: auto;
     margin-left: 40%;
+    color: #61082b;
 }
 .textcol{
     display: inline-block;
@@ -492,7 +493,7 @@ hr{
     text-align: right;
     padding-right: 30px;
 }
-.bortop{
+.questions:first-of-type{
     border-top: solid 1px gray;
 }
 .panel{
