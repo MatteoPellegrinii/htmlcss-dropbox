@@ -104,27 +104,47 @@ header .bluebutton:hover{
 .menutend:hover .tendina{
     display: block;
 }
-
-
-/* jumbotron */
-.jumbotron{
-    background-color: #b4d0e7;
-    margin-top: 60px;
-    padding-bottom: 60px;
-    width: 100%;
-    position: relative;
-}
+/* jumbo prova */
 .container{
     width: 80%;
     margin: auto;
+}
+.jumbotron{
+    background-color: #b4d0e7;
+    height: 600px;
+    margin-top: 60px;
+}
+.jumbotron .container{
+    height: 100%;
+}
+.imgrow{
+    height: 60%;
+}
+.imgrow::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.titlerow{
+    width: 100%;
+    height: 40%;
+}
+.jumbo{
+    float: left;
+    height: 100%;
+}
+.leftj{
+    width: 40%;
+}
+.rightj{
+    width: 60%;
 }
 .jumbotron h1{
     padding-top: 50px;
     font-size: 60px;
 }
 .jumbotron p{
-    font-size: 14px;
-    width: 30%;
+    font-size: 15px;
     padding-top: 30px;
 
 }
@@ -139,14 +159,7 @@ header .bluebutton:hover{
     color: black;
 }
 .jumbotron img{
-    width: 55%;
-    position: absolute;
-    left: 500px;
-    top: 200px;
-}
-
-a:hover{
-    text-decoration: none;
+    width: 120%;
 }
 
 /* main */
