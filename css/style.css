@@ -145,12 +145,11 @@ header .bluebutton:hover{
 }
 .jumbotron p{
     font-size: 15px;
-    padding-top: 30px;
-
+    width: 90%;
 }
 .jumbotron .bluebutton{
-    position: relative;
-    top: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 .jumbotron i{
     margin-top: 30px;
@@ -161,7 +160,42 @@ header .bluebutton:hover{
 .jumbotron img{
     width: 120%;
 }
-
+.radiobutton{
+    display: inline-block;
+    position: relative;
+    padding: 0 6px;
+    margin: 10px 0;
+}
+.radiobutton input{
+    display: none;
+}
+.radiobutton label{
+    font-weight: normal;
+}
+.radiobutton label:before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    left: 0;
+    margin: 0 5px 0 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+}
+.radiobutton input:checked + label:after {
+    border-radius: 10px;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    content: " ";
+    display: block;
+    background: transparent;
+    border: solid 4px blue;
+  }
 /* main */
 #prezzi{
     width: 100%;
@@ -169,6 +203,7 @@ header .bluebutton:hover{
     /* debug */
     /* height: 500px; */
 }
+
 #prezzi .container{
     width: 70%;
 }
@@ -179,13 +214,7 @@ header .bluebutton:hover{
     margin-top: 60px;
     font-size: 14px;
 }
-.fatturazione input{
-    margin-right: 10px;
-    margin-left: 10px;
-}
-input:last-child{
-    margin-left: 15px;
-}
+
 .colonne{
     margin-top: 40px;
 }
