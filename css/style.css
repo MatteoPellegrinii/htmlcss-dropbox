@@ -71,8 +71,8 @@ header .bluebutton:hover{
     display: block;
     padding: 10px;
     text-align: left;
-    background-color: gray;
-    border: solid 1px white;
+    background-color: #ccc;
+    /* border: solid 1px white; */
     color: white;
 }
 .tendina{
@@ -402,15 +402,7 @@ hr{
 .centralpart div{
     margin-top: 30px;
 }
-.none{
-    display: none;
-}
-.second:hover .ariz{
-    display: block;
-}
-.second:hover .design{
-    display: none;
-}
+
 
 /* bluepart */
 .bluepart{
